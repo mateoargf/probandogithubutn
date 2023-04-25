@@ -1,3 +1,66 @@
-header{
-    background-color: skyblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+/* aprendimos a manipular un fondo para que se vea mejor */
+/* section{
+    background:linear-gradient(0deg,rgba(255,0,150,0.3), rgba(255,0,150,0.3)), url(montania.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300px 100px; 
+    height: 800px;
+}
+
+h1, p{
+} */
+
+/* aprendemos a usar iconos sin jpg o svg */
+/* img {
+    width: 50px;
+}
+
+.miestilo{
+    font-size: 250px;
+    color: blue;
+    text-shadow: 2px 2px 5px red;
+    background-color: black;
+    padding: 50px;
+} */
+
+/* modulo de caja para contener los hijos dentro y su posisionamiento "flexbox"*/
+/* .padre{
+    background-color: aquamarine;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    border: 1px solid black;
+} */
+
+.trescosas{
+    display: flex;
+    flex-direction: column;
+}
+
+.trescolumnas{
+    display: flex;
+}
+
+.imagenytexto{
+    background-color: blueviolet;
+    display: flex;
+}
+
+.uno{
+    background-color: brown;
+}
+
+.dos{
+    background-color: cadetblue;
 }
